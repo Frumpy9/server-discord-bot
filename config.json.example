@@ -1,19 +1,27 @@
 {
-    "token": "x",
-    "prefix": "x",
-    "intervalMS": 90000,
-    "embeds": [{
-            "channelID": "x",
-            "messageID": "x"
-        },
-        {
-            "channelID": "x",
-            "messageID": "x"
-        }
-    ],
-    "logging": {
-        "enabled": true,
-        "guildID": "x",//sneaks: 253812864786235402
-        "channelID": "x"//discord-log: 476810519341432842
+  "token": "x",
+  "clientId": "x",
+  "commandGuildIds": [
+    "x"
+  ],
+  "intervalMS": 90000,
+  "allowedDevs": [
+    "134088598684303360",
+    "204729465564037120"
+  ],
+  "embeds": [
+    {
+      "channelID": "x",
+      "messageID": "x"
     }
+  ],
+  "logging": {
+    "enabled": true,
+    "guildID": "x",
+    "channelID": "x"
+  },
+  "presence": {
+    "type": "watching",
+    "name": "Follow maps with /follow"
+  }
 }
